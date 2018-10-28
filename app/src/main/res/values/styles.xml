@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Auth" />
+
+    <style name="Auth.Input">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/global_white_25</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="theme">@style/Auth.InputTheme</item>
+    </style>
+
+    <style name="Auth.InputTheme">
+        <item name="colorAccent">@color/color1</item>
+        <item name="colorPrimary">@color/color2</item>
+        <item name="colorPrimaryDark">@color/global_white_25</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/color5</item>
+        <item name="colorControlNormal">@color/global_white_25</item>
+        <item name="colorButtonNormal">@color/global_white_25</item>
+    </style>
+</resources>
